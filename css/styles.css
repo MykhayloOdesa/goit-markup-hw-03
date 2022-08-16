@@ -267,6 +267,14 @@ img {
   margin-bottom: 50px;
 }
 
+.portfolio.list > .list-item {
+  margin-right: 8px;
+}
+
+.portfolio.list > .list-item:last-child {
+  margin-right: 0;
+}
+
 .btn {
   border-style: none;
 
