@@ -172,6 +172,10 @@ img {
   margin-right: 30px;
 }
 
+.list > .list-item:last-child {
+  margin-right: 0;
+}
+
 .spec-title {
   margin-bottom: 10px;
 
