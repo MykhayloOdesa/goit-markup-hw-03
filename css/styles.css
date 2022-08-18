@@ -58,11 +58,23 @@ ul {
   display: flex;
 }
 
-.header .list {
+.nav-list {
+  display: flex;
+
+  list-style: none;
+  padding: 0;
+}
+
+.header-list {
+  display: flex;
   margin-left: auto;
+
+  list-style: none;
+  padding: 0;
 }
 
 .logo {
+  display: block;
   margin-right: 93px;
   padding-top: 24px;
   padding-bottom: 24px;
@@ -79,18 +91,12 @@ ul {
   color: var(--text-accent-color);
 }
 
-.nav .list-item {
-  margin-right: 50px;
-}
-
-.nav .list-item:last-child {
+.nav-list .list-item:last-child {
   margin-right: 0;
 }
 
 .header .list-item {
   margin-right: 50px;
-  padding-top: 32px;
-  padding-bottom: 32px;
 }
 
 .header .list-item:last-child {
@@ -98,6 +104,7 @@ ul {
 }
 
 .nav-link {
+  display: block;
   padding-top: 32px;
   padding-bottom: 32px;
 
@@ -114,6 +121,7 @@ ul {
 }
 
 .header .link {
+  display: block;
   padding-top: 32px;
   padding-bottom: 32px;
 }
