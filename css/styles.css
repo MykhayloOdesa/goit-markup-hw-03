@@ -1,6 +1,7 @@
 :root {
   --primary-background-color: #2f303a;
   --secondary-background-color: #f5f4fa;
+  --active-btn-color: #188ce8;
   --primary-text-color: #212121;
   --secondary-text-color: #757575;
   --brand-white-color: #ffffff;
@@ -185,6 +186,11 @@ ul {
   line-height: 1.88;
   letter-spacing: 0.06em;
   cursor: pointer;
+}
+
+.hero-btn:hover,
+.hero-btn:focus {
+  background-color: var(--active-btn-color);
 }
 
 .spec > .list-item {
